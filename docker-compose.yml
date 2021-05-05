@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  mongo:
+    image: mongo:4.2
+    container_name: mongo_casion
+    ports:
+      - '6666:27017'
+    expose:
+      - '6666'
+    environment:
+      MONGO_INITDB_DATABASE: casion_base
+      MONGO_INITDB_ROOT_USERNAME: casion_user
+      MONGO_INITDB_ROOT_PASSWORD: casion_password
