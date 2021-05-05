@@ -27,9 +27,9 @@ docker-compose up -d (subir o container com o mongo)
 Bom, como não há ambientes acabei subindo GIT os envs apenas para demonstração
 
 ```python
-yarn run dev (Roda o projeto apontando para .env.development)
+yarn run dev (executa o projeto apontando para .env.development)
 
-yarn run prod (Roda o projeto apontando para .env)
+yarn run prod (executa o projeto apontando para .env)
 ```
 
 ## Swagger
