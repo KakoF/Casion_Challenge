@@ -1,5 +1,4 @@
 import { createConnection } from 'typeorm'
-//createConnection().then(() => console.log('connected to database'))
 const config: any = {
     "type": process.env.TYPEORM_CONNECTION,
     "host": "localhost",
